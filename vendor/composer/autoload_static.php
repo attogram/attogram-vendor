@@ -44,6 +44,10 @@ class ComposerStaticInitb1d8e7be2253f2e605096846d109ac81
             array (
                 0 => __DIR__ . '/..' . '/psr/log',
             ),
+            'Parsedown' => 
+            array (
+                0 => __DIR__ . '/..' . '/erusev/parsedown',
+            ),
         ),
     );
 
