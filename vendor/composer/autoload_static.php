@@ -15,7 +15,6 @@ class ComposerStaticInitb1d8e7be2253f2e605096846d109ac81
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\HttpFoundation\\' => 33,
-            'Symfony\\Component\\Finder\\' => 25,
         ),
         'M' => 
         array (
@@ -31,10 +30,6 @@ class ComposerStaticInitb1d8e7be2253f2e605096846d109ac81
         'Symfony\\Component\\HttpFoundation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
-        ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
         ),
         'Monolog\\' => 
         array (
