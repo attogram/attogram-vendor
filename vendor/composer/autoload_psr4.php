@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
+    'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
 );
