@@ -5,11 +5,25 @@
         <testsuite name="Monolog Test Suite">
             <directory>vendor/monolog/monolog/tests/Monolog/</directory>
         </testsuite>
+        <testsuite name="Symfony HttpFoundation Component Test Suite">
+            <directory>vendor/symfony/http-foundation/Tests/</directory>
+        </testsuite>
+        <testsuite name="Test2">
+			      <file>vendor/erusev/parsedown/test/ParsedownTest.php</file>
+            <file>vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php</file>
+		    </testsuite>
+
     </testsuites>
 
     <filter>
         <whitelist>
             <directory suffix=".php">vendor/monolog/monolog/src/Monolog/</directory>
+            <directory>vendor/symfony/http-foundation/</directory>
+            <exclude>
+                <directory>vendor/symfony/http-foundation/Resources</directory>
+                <directory>vendor/symfony/http-foundation/Tests</directory>
+                <directory>vendor/symfony/http-foundation/vendor</directory>
+            </exclude>
         </whitelist>
     </filter>
 
