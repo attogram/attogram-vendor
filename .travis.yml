@@ -15,4 +15,4 @@ matrix:
     - php: 7.0
     - php: hhvm-nightly
 
-script: phpunit --configuration vendor/monolog/monolog/phpunit_xml.dist --coverage-text
+script: phpunit --configuration vendor/monolog/monolog/phpunit.xml.dist
