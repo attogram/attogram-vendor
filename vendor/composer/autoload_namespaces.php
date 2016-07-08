@@ -7,5 +7,6 @@ $baseDir = dirname(dirname($vendorDir)).'/attogram';
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
 );
