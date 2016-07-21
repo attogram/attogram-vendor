@@ -84,6 +84,10 @@ class ComposerStaticInit3af9feb8d96fa962b057a59db87ebaa5
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
+            'ParsedownExtra' => 
+            array (
+                0 => __DIR__ . '/..' . '/erusev/parsedown-extra',
+            ),
             'Parsedown' => 
             array (
                 0 => __DIR__ . '/..' . '/erusev/parsedown',
